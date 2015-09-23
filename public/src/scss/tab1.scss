@@ -1,0 +1,26 @@
+#note{
+	padding: 20px 10px;
+	background: white;
+}
+[contenteditable="true"]:focus{
+border:none;
+outline:none;
+}
+
+.list{
+	margin: 10px 0;
+	background: white;
+	padding: 10px;
+}
+.hash-input{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #F9BF3B;
+  &.readonly {
+    padding: 2px 4px;
+    background: #F9BF3B;
+    color: white;
+    border-radius: 2px;
+    margin: 0 2px;
+  }
+}

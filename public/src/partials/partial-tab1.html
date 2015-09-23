@@ -1,0 +1,8 @@
+<div class="pages">
+
+    <div id="note" contenteditable="true" ng-model="text"></div>
+    <div class="list" ng-repeat="todo in todos | reverse">
+        <div ng-bind-html="todo.trustText"></div>
+    </div>
+    <input ng-model="text">
+</div>
